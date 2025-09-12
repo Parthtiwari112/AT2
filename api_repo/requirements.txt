@@ -1,17 +1,18 @@
+# Core scientific stack
 pandas
 numpy
-requests
 scikit-learn
 joblib
-fastapi
-uvicorn[standard]
+
+# Visualization / analysis
 matplotlib
+shap
+
+# ML libraries
 xgboost
 lightgbm
-shap
+
+# API dependencies
 fastapi
 uvicorn[standard]
-pandas
-scikit-learn
-joblib
 requests
