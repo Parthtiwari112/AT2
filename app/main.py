@@ -19,8 +19,8 @@ def load_model(name: str):
 
 
 # Attempt to load pre-trained models (if present)
-rain_model = load_model("rain_model.pkl")
-precip_model = load_model("precipitation_model.pkl")
+rain_model = load_model("25506751_rain_model.pkl")
+precip_model = load_model("25506751_precip_model.pkl")
 
 
 @app.get("/")
